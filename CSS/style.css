@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px;
+    height: 1900px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.green{
+    width: 700px;
+    height: 450px;
+    background-color: rgb(41, 110, 41);
+    position: relative;
+}
+.red{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(243, 9, 9);
+    border-radius: 100%;
+    margin-top: 20%;
+    margin-left: 35%;
+    position: absolute;
+    z-index: 2;
+}
+.blue {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(23, 6, 119);
+    border-radius: 100%;
+    margin-top: 20%;
+    margin-left: 35%;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-105px, -119px);
+}
+.black{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(231, 167, 178);
+    position: fixed;
+}
+.fbshare{
+    width: 120px;
+    top: 60%;
+    right: -80px;
+    position: fixed;
+    transition: 1s;
+   
+}
+.fbshare:hover{
+    cursor: pointer;
+    right: -8px;
+}
